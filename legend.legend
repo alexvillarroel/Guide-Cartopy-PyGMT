@@ -1,0 +1,31 @@
+"""
+H 16p,Helvetica-Bold Earthquakes > 4 in Japan between 1987 and 1988
+D 0 1p
+N 3
+V 0 1p
+S 0.25c c 0.25c 68/1/84 0.25p 0.5c Depth: 0-100 km (Shallow)
+S 0.25c c 0.25c 59/82/139 0.25p 0.5c Depth: 100-300 km (Intermediate)
+S 0.25c c 0.25c 33/144/141 0.25p 0.5c Depth: 300-500 km (Deep)
+D 0 1p
+V 0 1p
+N 7
+V 0 2p
+S 0.25c c 0.16c - 0.25p 1.3c M 4
+S 0.25c c 0.32c - 0.25p 1.3c M 5
+S 0.25c c 0.64c - 0.25p 1.3c M 6
+S 0.25c c 1.28c - 0.25p 1.3c M 7
+D 0 2p
+V 0 2p
+N 2
+G 1p
+P
+T The color represents the depth of the earthquake.
+T Depth ranges: Shallow (0-100 km), Intermediate (100-300 km), Deep (300-500 km).
+T The size of the symbol represents the magnitude of the earthquake.
+T Small (Magnitude 4), Medium (Magnitude 5), Large (Magnitude 6), Very Large (Magnitude 7),
+T Extreme (Magnitude 8).
+G 0.9c
+I @USGS.png 1i RT
+G -0.75c
+L 12p,Times-Italic LB Your Name
+"""
